@@ -13,4 +13,9 @@ describe('Room', function() {
         const actual = room.name;
         assert.strictEqual(actual, "Dining Room");
     });
+
+    it('Should have an area', function(){
+        const actual = room.area;
+        assert.strictEqual(actual, 10);
+    });
 });
