@@ -8,11 +8,11 @@ PaintCan.prototype.checkIfEmpty = function () {
     } else {
         return true;
     }
-}
+};
 
 PaintCan.prototype.empty = function () {
-    this.volume = 0
-}
+    this.volume = 0;
+};
 
 
 module.exports = PaintCan;
