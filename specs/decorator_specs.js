@@ -23,7 +23,7 @@ describe('Decorator', function(){
     it('should be able to add to paint stock', function(){
         decorator.addToStock(paintCan);
         // const expected = [paint_can]
-        const actual = decorator.paintStock;
+        const actual = decorator.paintStock.length;
         assert.strictEqual(actual, 1)
     })
 
